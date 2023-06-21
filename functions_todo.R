@@ -215,3 +215,4 @@ download_sheet <- function(data_list, spreadsheet_name, j = 1){
 get_data_download <- function(data_to_download, i){
   return(eval(parse(text = data_to_download$value[i])))
 }
+
